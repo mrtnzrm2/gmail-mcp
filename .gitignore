@@ -23,3 +23,8 @@ venv/
 sql/
 
 *.txt
+
+token*.json
+credentials*.json
+
+client_secret.json
