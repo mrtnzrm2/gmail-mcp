@@ -1,8 +1,0 @@
-ALTER TABLE IF EXISTS audit_events
-ADD COLUMN IF NOT EXISTS intelligence_applied BOOLEAN NOT NULL DEFAULT false;
-
-ALTER TABLE IF EXISTS audit_events
-ADD COLUMN IF NOT EXISTS intelligence_hybrid_applied BOOLEAN NOT NULL DEFAULT false;
-
-ALTER TABLE IF EXISTS audit_events
-ADD COLUMN IF NOT EXISTS intelligence_version TEXT NULL;
